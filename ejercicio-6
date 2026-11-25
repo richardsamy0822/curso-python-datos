@@ -1,0 +1,25 @@
+#actividad
+
+solicitud = {
+    "codigo": "ADM-004",
+    "tipo": "actualizacion de datos",
+    "area_solicitante": "TH",
+    "dias_pendiente": 1,
+    "afecta_operacion": False,
+    "estado": "cerrada",
+}
+
+if solicitud.get("estado") == "cerrada":
+  print("CERRADA - Registrar que no requiere nueva gestión.")
+elif (
+    solicitud.get("afecta_operacion") == True
+    and solicitud.get("dias_pendiente") >= 2
+):
+  print("URGENTE - Escalar al responsable para atención prioritaria.")
+elif (
+    solicitud.get("dias_pendiente") >= 5
+    or solicitud.get("afecta_operacion") == True
+):
+  print("PRIORITARIA - Programar atención preferente.")
+else:
+  print("NORMAL - Mantener en el flujo habitual de atención.")

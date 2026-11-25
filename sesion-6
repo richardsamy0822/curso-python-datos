@@ -1,0 +1,42 @@
+# #sesion 6 
+# #if
+# cantidad_productos = 10
+# if cantidad_productos >= 1:
+#     print("productos disponibles") 
+
+# #if/else
+# # total_compra =170000
+# # if total_compra <= 180000:
+# #     print("Descuento Autorizado")
+# # else:
+# #     print("No Aplica Descuento")
+
+# #ejercicio
+
+# solicitudes_cupos = 1
+# if solicitudes_cupos <= 2:
+#     print("Llamar a Acudiente")
+# else:
+#     print("Solicitudes al día")
+
+#EJERCICIO 2
+
+#tabla de pruebas
+
+cantidad = 40
+if cantidad == 0:
+    print("Sin Cupo")
+elif cantidad <= 1:
+    print("Últimos Cupos")
+else:
+    print("Disponible")
+
+
+#clase ejercicio
+total_compra = 100000
+cliente_frecuente = True
+
+if total_compra >= 500000 and cliente_frecuente:
+    print("Descuento autorizado")
+else:
+    print("No cumple las condiciones")

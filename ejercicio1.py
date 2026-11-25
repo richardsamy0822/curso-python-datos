@@ -1,0 +1,6 @@
+print("Hola mundo")
+print("Richard Rodríguez")
+print("Cordial saludo")
+print("Practica mucho con código")
+print("Analiza la estructura de las columnas y filas")
+print("Muchas gracias por participar")
