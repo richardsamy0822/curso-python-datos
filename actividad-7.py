@@ -64,7 +64,7 @@ print(f"500 a 999 km (Seguimiento):       {seguimiento} vehículos")
 print(f"1.000 a 1.499 km (Programar rev.):{programar_revision} vehículos")
 print(f"1.500 a 1.999 km (Prioridad alta):{prioridad_alta} vehículos")
 if fuera_de_rango > 0:
-    print(f"Otros rangos:                     {fuera_de_rango} vehículos")
+    print(f"Otros rangos:                 {fuera_de_rango} vehículos")
 print(f"Total de vehículos evaluados:     {cantidad_vehiculos}")
 print(f"Kilometraje acumulado total:      {km_total} km")
 print(f"Promedio de km por vehículo:      {promedio_km:.2f} km")
